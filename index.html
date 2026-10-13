@@ -400,60 +400,6 @@ Statistics
 
 </div>
 
-<!-- ==========================
-     Backup & Restore
-========================== -->
-
-<section class="card">
-
-    <h2>💾 Backup & Restore</h2>
-
-    <p>
-        Gumawa ng backup ng lahat ng records o mag-import ng dating backup.
-    </p>
-
-    <button id="btnExportBackup">
-        📥 Download Backup
-    </button>
-
-    <br><br>
-
-    <input
-        type="file"
-        id="backupFile"
-        accept=".json">
-
-    <br><br>
-
-    <label>
-        <input
-            type="radio"
-            name="importMode"
-            value="merge"
-            checked>
-
-        Merge with Existing Records
-    </label>
-
-    <br>
-
-    <label>
-        <input
-            type="radio"
-            name="importMode"
-            value="replace">
-
-        Replace Existing Records
-    </label>
-
-    <br><br>
-
-    <button id="btnImportBackup">
-        📤 Import Backup
-    </button>
-
-</section>
-
 <div class="card-body">
 
 <canvas id="severityChart"></canvas>
