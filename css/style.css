@@ -515,5 +515,22 @@ h2{
 .calendar-empty{
     visibility:hidden;
 }
+   
+.card{
+    background:#fff;
+    padding:20px;
+    margin:20px 0;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
 
+.card h2{
+    margin-top:0;
+}
+
+.card button{
+    padding:10px 18px;
+    margin:5px 0;
+    cursor:pointer;
+}
 }
